@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import hest from './images/hest.jpg';
 import './App.css';
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>HEj jag gjorde en ändring och pushade direkt till main!!!111</p>
+        <img src={hest} alt="snel hest"></img>
         <a
           className="App-link"
           href="https://reactjs.org"
